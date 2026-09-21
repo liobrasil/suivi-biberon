@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Suivi express bébé — biberon, tétée, repas, couche | 100 % hors ligne, sans compte</title>
+<meta name="description" content="Notez biberon, tétée, repas et couche en un geste. 100 % hors ligne, sans compte. Réservez au lancement (4,99 € achat unique).">
+<style>
+  :root { --ink:#12212e; --muted:#5b6b7a; --accent:#1f6f5c; --bg:#f6f8f7; --card:#ffffff; --line:#dde5e1; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         color:var(--ink); background:var(--bg); line-height:1.55; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 28px 20px 56px; }
+  header .kicker { color:var(--accent); font-weight:700; letter-spacing:.02em; font-size:.9rem; text-transform:uppercase; }
+  h1 { font-size:1.7rem; line-height:1.25; margin:.35em 0 .25em; }
+  h1 .hl { color:var(--accent); }
+  .sub { color:var(--muted); font-size:1.05rem; margin-bottom:1.4rem; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:20px; margin:16px 0; }
+  .features { list-style:none; padding:0; margin:0; }
+  .features li { padding:7px 0 7px 30px; position:relative; }
+  .features li::before { content:"✓"; position:absolute; left:0; top:7px; color:var(--accent); font-weight:700; }
+  .price { font-size:1.9rem; font-weight:800; margin:.1em 0; }
+  .price small { font-size:.95rem; color:var(--muted); font-weight:500; }
+  .cta { display:inline-block; background:var(--accent); color:#fff; text-decoration:none; font-weight:700;
+         padding:14px 22px; border-radius:10px; font-size:1.05rem; }
+  .cta:hover { filter:brightness(1.06); }
+  .cta-note { color:var(--muted); font-size:.85rem; margin-top:8px; }
+  .choice { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+  .choice .opt { border:1px solid var(--line); border-radius:12px; padding:14px; font-size:.95rem; }
+  .choice .opt.a { border-color:var(--accent); }
+  .choice h3 { margin:.1em 0 .35em; font-size:1rem; }
+  .badge { display:inline-block; font-size:.72rem; font-weight:700; color:var(--accent); background:#e6f2ee;
+           border-radius:999px; padding:2px 9px; margin-bottom:6px; }
+  .muted { color:var(--muted); font-size:.9rem; }
+  footer { margin-top:26px; color:var(--muted); font-size:.82rem; }
+  @media (max-width:560px){ .choice { grid-template-columns:1fr; } h1{font-size:1.45rem;} }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <div class="kicker">Pré-lancement · France</div>
+    <h1>Notez biberon, tétée, repas, couche — <span class="hl">en un geste, 100 % hors ligne, sans compte.</span></h1>
+    <p class="sub">Pour les parents d'un bébé de 0 à 12 mois qui veulent noter vite, sans inscription et sans que les données quittent le téléphone.</p>
+  </header>
+
+  <section class="card">
+    <ul class="features">
+      <li><strong>Saisie en moins de 5 secondes.</strong> Un geste pour le biberon, la tétée, le repas ou la couche.</li>
+      <li><strong>100 % hors ligne.</strong> Fonctionne en mode avion, sans connexion.</li>
+      <li><strong>Sans compte.</strong> Aucune inscription, aucun cloud imposé.</li>
+      <li><strong>Vos données restent sur votre téléphone.</strong> Aucune donnée de santé envoyée.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <span class="badge">Offre de lancement</span>
+    <div class="price">4,99 € <small>achat unique</small></div>
+    <p class="muted">Un niveau gratuit permet de noter hors ligne sans limite. Le déverrouillage à 4,99 € ajoute [export / statistiques] au lancement. Aucun paiement n'a lieu aujourd'hui : cette page sert à réserver votre place.</p>
+    <!-- CTA : remplacer l'URL par le formulaire de réservation fourni -->
+    <a class="cta" href="REMPLACER_PAR_URL_DU_FORMULAIRE" rel="noopener">Je réserve au lancement</a>
+    <p class="cta-note">En laissant votre email, vous acceptez d'être informé du lancement. Pas de prospection, désinscription à tout moment.</p>
+  </section>
+
+  <section class="card">
+    <h3>Quelle version vous conviendrait le mieux ?</h3>
+    <p class="muted">Votre réponse est posée dans le formulaire de réservation. Elle nous sert à choisir le bon produit.</p>
+    <div class="choice">
+      <div class="opt a">
+        <div class="badge">Version A</div>
+        <h3>Hors ligne, sans compte</h3>
+        <p>100 % hors ligne, aucune inscription, achat unique 4,99 €.</p>
+      </div>
+      <div class="opt">
+        <div class="badge">Version B</div>
+        <h3>Gratuite, avec compte</h3>
+        <p>Gratuite, compte requis, synchronisation cloud, publicités, option payante.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p><strong>Page de pré-lancement.</strong> Le produit n'est pas encore disponible ; aucune date de sortie ferme n'est promise. Aucune allégation médicale. Cette page ne remplace pas l'avis d'un professionnel de santé.</p>
+    <p>Données personnelles : seuls l'email et le choix de version sont collectés, pour vous informer du lancement. Conservation 12 mois maximum, suppression sur simple demande, aucune donnée de santé, aucun compte utilisateur.</p>
+  </footer>
+</main>
+</body>
+</html>
